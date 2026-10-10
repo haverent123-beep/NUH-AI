@@ -16,8 +16,7 @@ def get_client():
 
 @app.route("/")
 def home():
-    return render_template("index.html")
-
+    return "NUH AI Backend is Running!"
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
